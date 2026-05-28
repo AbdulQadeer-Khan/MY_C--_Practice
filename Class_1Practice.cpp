@@ -20,7 +20,13 @@ class rectangle{
 
 };
 int main(){
-    rectangle data(5.0,3.0);
+    double userlength;
+    double userwidth;
+    cout<<"Enter length of the rectangle";
+    cin>>userlength;
+    cout<<"Enter width of the rectangle";
+    cin>>userwidth;
+    rectangle data(userlength,userwidth);
     
     cout<<"Area Of Rectangle is :"<<data.getArea()<<endl;
     cout<<"perimeter of Rectangle is :"<<data.getperimeter()<<endl;
