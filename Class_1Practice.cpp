@@ -21,6 +21,7 @@ class rectangle{
 };
 int main(){
     rectangle data(5.0,3.0);
+    
     cout<<"Area Of Rectangle is :"<<data.getArea()<<endl;
     cout<<"perimeter of Rectangle is :"<<data.getperimeter()<<endl;
 }
